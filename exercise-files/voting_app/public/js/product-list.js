@@ -38,7 +38,6 @@ class ProductList extends React.Component {
       b.votes - a.votes
     ));
 
-
     //map() returns a new array
     const productComponents = products.map((product) => (
       <Product
